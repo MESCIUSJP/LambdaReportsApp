@@ -3,6 +3,7 @@
 ## 概要
 LambdaReportsAppは、AWS Lambdaを使用してHTTPリクエストを処理し、ActiveReports for .NETを用いてPDFを生成するアプリケーションです。このアプリケーションは、指定されたデータを基にレポートを作成し、PDF形式で出力します。
 ソースコードはブログ記事「[AWS LambdaとActiveReports for .NETでつくる帳票生成API](https://devlog.mescius.jp/activereports-aws-lambda/)」内で解説している内容となります。
+![AWS Lambda x ActiveReports](./activereports-aws-lambda.png)
 
 ## 使用技術
 - **AWS Lambda**: サーバーレスコンピューティングサービスを利用して、HTTPリクエストを処理します。
